@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>resP</title>
+  <script defer src="vendor.b07386e7a63910db2223.js"></script><script defer src="main.d676958eb5cca49b88ae.js"></script></head>
+  <body>
+      <header><h1>BattleShip</h1></header>
+      <main>
+        <div class="button-container">
+          <button id="gameStateToggle" class="game-button">Restart Game</button>
+          <button id="randomPlacement" class="game-button">Randomize Ships</button>
+        </div>
+        <div class="content">
+          <div class="user-board"></div>
+          <div class="computer-board"></div>
+        </div>
+        <div class="game-over modal">
+          <div class="modal-content">
+            <div class="modal-title"><h1>Game Over</h1></div>
+            <div class="game-winner">
+              <h2>Winner is : &nbsp;<span class="winner-name"></span></h2>
+            </div>
+            <div class="modal-buttons">
+              <button id="startNewGame" class="game-button modal-button">
+                Start New Game
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+  </body>
+</html>
